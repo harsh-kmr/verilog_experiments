@@ -1,0 +1,50 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Dec  5 16:23:45 2022
+| Host         : DESKTOP-11UI415 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file encoder_8x3_priority_methodology_drc_routed.rpt -pb encoder_8x3_priority_methodology_drc_routed.pb -rpx encoder_8x3_priority_methodology_drc_routed.rpx
+| Design       : encoder_8x3_priority
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 3
++-----------+----------+-------------------+------------+
+| Rule      | Severity | Description       | Violations |
++-----------+----------+-------------------+------------+
+| TIMING-20 | Warning  | Non-clocked latch | 3          |
++-----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch out_reg[0] cannot be properly analyzed as its control pin out_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch out_reg[1] cannot be properly analyzed as its control pin out_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch out_reg[2] cannot be properly analyzed as its control pin out_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+

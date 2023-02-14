@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+i/p and o/p are
+in= 00000001 and y= 000
+in= 00000010 and y= 001
+in= 00000100 and y= 010
+in= 00001000 and y= 011
+in= 00010000 and y= 100
+in= 00100000 and y= 101
+in= 01000000 and y= 110
+in= 10000000 and y= 111
+$finish called at time : 80 ns : File "C:/Users/student/201211/priority8x3/priority8x3.srcs/sim_1/new/encoder_8x3_priority_tb.v" Line 12

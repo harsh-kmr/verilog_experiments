@@ -1,0 +1,277 @@
+
+*** Running vivado
+    with args -log async_single_port_RAM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source async_single_port_RAM.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source async_single_port_RAM.tcl -notrace
+Command: synth_design -top async_single_port_RAM -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5052
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1113.789 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'async_single_port_RAM' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'async_single_port_RAM' (1#1) [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1142.738 ; gain = 28.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1142.738 ; gain = 28.949
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1142.738 ; gain = 28.949
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1142.738 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/constrs_1/new/async_single_port_ram.xdc]
+Finished Parsing XDC File [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/constrs_1/new/async_single_port_ram.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/constrs_1/new/async_single_port_ram.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/async_single_port_RAM_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/async_single_port_RAM_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1207.996 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1207.996 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[63]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[62]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[61]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[60]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[59]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[58]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[57]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[56]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[55]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[54]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[53]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[52]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[51]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[50]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[49]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[48]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[47]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[46]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[45]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[44]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[43]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[42]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[41]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[40]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[39]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[38]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[37]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[36]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[35]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[34]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[33]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[32]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[31]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[30]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[29]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[28]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[27]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[26]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[25]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[24]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[23]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[22]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[21]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[20]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[19]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[18]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[17]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[16]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[15]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[14]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[13]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[12]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[11]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[10]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[9]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[8]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[7]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[6]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[5]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[4]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[3]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[2]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[1]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[0]' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:14]
+WARNING: [Synth 8-327] inferring latch for variable 'addr_reg_reg' [C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.srcs/sources_1/new/async_single_port_RAM.v:16]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    1 Bit        Muxes := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1207.996 ; gain = 94.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1226.414 ; gain = 112.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT1  |     1|
+|3     |LUT3  |     4|
+|4     |LUT5  |    64|
+|5     |LUT6  |   136|
+|6     |MUXF7 |    64|
+|7     |MUXF8 |    32|
+|8     |LD    |   518|
+|9     |IBUF  |    15|
+|10    |OBUF  |     8|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 65 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1231.199 ; gain = 52.152
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1231.199 ; gain = 117.410
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1244.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 614 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1245.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 518 instances were transformed.
+  LD => LDCE: 512 instances
+  LD => LDCE (inverted pins: G): 6 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 65 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1245.219 ; gain = 131.430
+INFO: [Common 17-1381] The checkpoint 'C:/Users/student/201211/async_single_port_RAM/async_single_port_RAM.runs/synth_1/async_single_port_RAM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file async_single_port_RAM_utilization_synth.rpt -pb async_single_port_RAM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Dec  8 11:45:56 2022...

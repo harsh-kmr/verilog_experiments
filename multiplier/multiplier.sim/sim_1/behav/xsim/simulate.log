@@ -1,0 +1,7 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+A = 1011  B = 0110  A*B = 01000010
+A = 1111  B = 1111  A*B = 11100001
+A = 0000  B = 1111  A*B = 00000000
+A = 0001  B = 1111  A*B = 00001111
+$finish called at time : 400 ns : File "C:/Users/student/201211/multiplier/multiplier.srcs/sim_1/new/tsetbench.v" Line 22

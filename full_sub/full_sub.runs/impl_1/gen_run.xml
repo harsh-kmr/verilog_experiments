@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1670220688">
+  <File Type="BITSTR-BMM" Name="full_sub_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="full_sub_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="full_sub_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="full_sub_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="full_sub.tcl"/>
+  <File Type="OPT-TIMING" Name="full_sub_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="full_sub_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="full_sub_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="full_sub_reports.tcl"/>
+  <File Type="OPT-DRC" Name="full_sub_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="full_sub.hwdef"/>
+  <File Type="PWROPT-DCP" Name="full_sub_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="full_sub_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="full_sub_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="full_sub_placed.dcp"/>
+  <File Type="PLACE-IO" Name="full_sub_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="full_sub_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="full_sub_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="full_sub_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="full_sub_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="full_sub_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="full_sub_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="full_sub_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="full_sub_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="full_sub.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="full_sub_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="full_sub_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="full_sub_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="full_sub.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="full_sub_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="full_sub_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="full_sub_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="full_sub_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="full_sub_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="full_sub_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="full_sub_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="full_sub.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="full_sub_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="full_sub_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="full_sub_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="full_sub_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="full_sub_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="full_sub_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="full_sub_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="full_sub_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="full_sub_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="full_sub_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="full_sub_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="full_sub_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="full_sub_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="full_sub_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="full_sub_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="full_sub_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="full_sub_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="full_sub_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="full_sub_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="full_sub_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="full_sub_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="full_sub.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="full_sub_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="full_sub.rbt"/>
+  <File Type="BITSTR-NKY" Name="full_sub.nky"/>
+  <File Type="PDI-FILE" Name="full_sub.pdi"/>
+  <File Type="RCFI_FILE" Name="full_sub.rcfi"/>
+  <File Type="CFI_FILE" Name="full_sub.cfi"/>
+  <File Type="RNPI_FILE" Name="full_sub.rnpi"/>
+  <File Type="NPI_FILE" Name="full_sub.npi"/>
+  <File Type="RBD_FILE" Name="full_sub.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="full_sub.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="full_sub.sysdef"/>
+  <File Type="BG-BGN" Name="full_sub.bgn"/>
+  <File Type="BG-DRC" Name="full_sub.drc"/>
+  <File Type="RDI-RDI" Name="full_sub.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/full_sub.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="full_sub"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/full_sub.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/full_sub.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+i/p and o/p are
+sel= 00 and y= 1
+sel= 01 and y= 1
+sel= 10 and y= 1
+sel= 11 and y= 1
+$finish called at time : 40 ns : File "C:/Users/student/201211/mux4x1/mux4x1.srcs/sim_1/new/mux4x1_tb.v" Line 14

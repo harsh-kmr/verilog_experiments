@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ a = 0  b = 0  c = 0  parity = 0
+ a = 0  b = 0  c = 1  parity = 1
+ a = 0  b = 1  c = 0  parity = 1
+ a = 0  b = 1  c = 1  parity = 0
+ a = 1  b = 0  c = 0  parity = 1
+ a = 1  b = 0  c = 1  parity = 0
+ a = 1  b = 1  c = 0  parity = 0
+ a = 1  b = 1  c = 1  parity = 1
+$finish called at time : 800 ns : File "C:/Users/student/201211/Even_Parity/Even_Parity.srcs/sim_1/new/tsetbench.v" Line 17

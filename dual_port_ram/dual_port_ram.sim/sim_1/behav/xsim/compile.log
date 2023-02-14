@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/201211/dual_port_ram/dual_port_ram.srcs/sources_1/new/dual_port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dual_port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/201211/dual_port_ram/dual_port_ram.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

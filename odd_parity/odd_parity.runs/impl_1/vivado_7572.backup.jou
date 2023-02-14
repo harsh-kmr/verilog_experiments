@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec  8 15:36:10 2022
+# Process ID: 7572
+# Current directory: C:/Users/student/201211/odd_parity/odd_parity.runs/impl_1
+# Command line: vivado.exe -log odd_parity_generator.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source odd_parity_generator.tcl -notrace
+# Log file: C:/Users/student/201211/odd_parity/odd_parity.runs/impl_1/odd_parity_generator.vdi
+# Journal file: C:/Users/student/201211/odd_parity/odd_parity.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source odd_parity_generator.tcl -notrace

@@ -1,0 +1,78 @@
+$date
+   Mon Dec  5 11:21:56 2022
+$end
+$version
+  2020.1
+$end
+$timescale
+  1ps
+$end
+$scope module fulladder_tb $end
+$var reg 1 ! a $end
+$var reg 1 " b $end
+$var reg 1 # cin $end
+$var wire 1 $ s $end
+$var wire 1 % cout $end
+$scope module lut $end
+$var wire 1 & a $end
+$var wire 1 ' b $end
+$var wire 1 ( cin $end
+$var wire 1 $ s $end
+$var wire 1 % cout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+$end
+#100000
+1#
+1$
+0%
+1(
+#200000
+1"
+0#
+1$
+0%
+1'
+0(
+#300000
+1#
+0$
+1%
+1(
+#400000
+1!
+0"
+0#
+1$
+0%
+1&
+0'
+0(
+#500000
+1#
+0$
+1%
+1(
+#600000
+1"
+0#
+0$
+1%
+1'
+0(
+#700000
+1#
+1$
+1%
+1(

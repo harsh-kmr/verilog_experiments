@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  5 16:34:23 2022
+# Process ID: 3592
+# Current directory: C:/Users/student/201211/3x8decoder/3x8decoder.runs/impl_1
+# Command line: vivado.exe -log decoder_3x8.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_3x8.tcl -notrace
+# Log file: C:/Users/student/201211/3x8decoder/3x8decoder.runs/impl_1/decoder_3x8.vdi
+# Journal file: C:/Users/student/201211/3x8decoder/3x8decoder.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source decoder_3x8.tcl -notrace

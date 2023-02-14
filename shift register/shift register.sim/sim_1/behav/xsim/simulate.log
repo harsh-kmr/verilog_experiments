@@ -1,0 +1,15 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ In = xxxx  Out = 0000  Sel = 10  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0001  Sel = 10  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0011  Sel = 10  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0111  Sel = 10  SIR = 0  SIL = 1 
+ In = xxxx  Out = 1111  Sel = 10  SIR = 0  SIL = 1 
+ In = xxxx  Out = 1111  Sel = 01  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0111  Sel = 01  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0011  Sel = 01  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0001  Sel = 01  SIR = 0  SIL = 1 
+ In = xxxx  Out = 0000  Sel = 01  SIR = 0  SIL = 1 
+ In = 1010  Out = 0000  Sel = 11  SIR = 0  SIL = 0 
+ In = 1010  Out = 1010  Sel = 11  SIR = 0  SIL = 0 
+ In = 1010  Out = 1010  Sel = 00  SIR = 0  SIL = 0 

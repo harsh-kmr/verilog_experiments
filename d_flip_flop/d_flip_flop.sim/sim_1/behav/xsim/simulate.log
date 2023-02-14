@@ -1,0 +1,6 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ D = 0 Q = 0 Qbar = 1
+ D = 1 Q = 0 Qbar = 1
+ D = 1 Q = 1 Qbar = 0
+$finish called at time : 300 ns : File "C:/Users/student/201211/d_flip_flop/d_flip_flop.srcs/sim_1/new/testbench.v" Line 12

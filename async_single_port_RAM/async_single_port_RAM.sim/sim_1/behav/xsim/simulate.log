@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Addr=000000, data =00000001, we=1, q=xxxxxxxx
+Addr=000001, data =00000010, we=1, q=xxxxxxxx
+Addr=000010, data =00000011, we=1, q=xxxxxxxx
+Addr=000000, data =00000011, we=0, q=00000001
+Addr=000001, data =00000011, we=0, q=00000010
+Addr=000010, data =00000011, we=0, q=00000011

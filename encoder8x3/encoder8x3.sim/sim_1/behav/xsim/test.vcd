@@ -1,0 +1,52 @@
+$date
+   Mon Dec  5 12:51:42 2022
+$end
+$version
+  2020.1
+$end
+$timescale
+  1ps
+$end
+$scope module testbench $end
+$var reg 8 ! in [7:0] $end
+$var wire 3 " out [2:0] $end
+$scope module enc $end
+$var wire 3 " out [2:0] $end
+$var wire 8 # in [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 !
+b0 "
+b1 #
+$end
+#10000
+b10 !
+b1 "
+b10 #
+#20000
+b100 !
+b10 "
+b100 #
+#30000
+b1000 !
+b11 "
+b1000 #
+#40000
+b10000 !
+b100 "
+b10000 #
+#50000
+b100000 !
+b101 "
+b100000 #
+#60000
+b1000000 !
+b110 "
+b1000000 #
+#70000
+b10000000 !
+b111 "
+b10000000 #

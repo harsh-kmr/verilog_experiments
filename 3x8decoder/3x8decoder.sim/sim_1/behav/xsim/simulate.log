@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+i/p and o/p are
+in= 000 and y= 00000001
+in= 001 and y= 00000010
+in= 010 and y= 00000100
+in= 011 and y= 00001000
+in= 100 and y= 00010000
+in= 101 and y= 00100000
+in= 110 and y= 01000000
+in= 111 and y= 10000000
+$finish called at time : 800 ns : File "C:/Users/student/201211/3x8decoder/3x8decoder.srcs/sim_1/new/testbench.v" Line 14

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Dec  8 14:29:43 2022
+# Process ID: 1348
+# Current directory: C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.runs/synth_1
+# Command line: vivado.exe -log carry_lookahead_adder_4bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source carry_lookahead_adder_4bit.tcl
+# Log file: C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.runs/synth_1/carry_lookahead_adder_4bit.vds
+# Journal file: C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source carry_lookahead_adder_4bit.tcl -notrace

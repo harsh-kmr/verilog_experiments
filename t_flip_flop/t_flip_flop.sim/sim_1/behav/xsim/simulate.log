@@ -1,0 +1,8 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ T = 0 Q = 0 Qbar = 1
+ T = 1 Q = 1 Qbar = 0
+ T = 0 Q = 1 Qbar = 0
+ T = 1 Q = 0 Qbar = 1
+ T = 1 Q = 1 Qbar = 0
+ T = 1 Q = 0 Qbar = 1

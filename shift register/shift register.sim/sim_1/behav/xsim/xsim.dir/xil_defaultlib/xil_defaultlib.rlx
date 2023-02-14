@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/student/201211/shift register/shift register.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/student/201211/shift register/shift register.srcs/sim_1/new/testbench.v,1670317059,verilog,,,,testbench,,,,,,,,
+C:/Users/student/201211/shift register/shift register.srcs/sources_1/new/shift_register.v,1670318064,verilog,,C:/Users/student/201211/shift register/shift register.srcs/sim_1/new/testbench.v,,d_flipflop;mux_4x1;universal_shift_register,,,,,,,,

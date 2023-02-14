@@ -1,0 +1,6 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ A = 11  B = 10  A>B = 1  A<B = 0  A=B = 0
+ A = 11  B = 11  A>B = 0  A<B = 0  A=B = 1
+ A = 10  B = 11  A>B = 0  A<B = 1  A=B = 0
+$finish called at time : 300 ns : File "C:/Users/student/201211/2bit comparator/2bit comparator.srcs/sim_1/new/testbench.v" Line 11

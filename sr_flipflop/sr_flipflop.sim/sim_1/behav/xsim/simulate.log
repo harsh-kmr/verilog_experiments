@@ -1,0 +1,9 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+ S = 0 R = 0 Q = 0 Qbar = 1
+ S = 0 R = 1 Q = 0 Qbar = 1
+ S = 1 R = 0 Q = 0 Qbar = 1
+ S = 1 R = 0 Q = 1 Qbar = 0
+ S = 1 R = 1 Q = 1 Qbar = 0
+ S = 1 R = 1 Q = x Qbar = x
+$finish called at time : 400 ns : File "C:/Users/student/201211/sr_flipflop/sr_flipflop.srcs/sim_1/new/testbench.v" Line 14

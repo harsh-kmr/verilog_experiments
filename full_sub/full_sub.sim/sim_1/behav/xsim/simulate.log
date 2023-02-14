@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+i/p and o/p are
+a= 0,b= 0,c=0, borrow= 0,diff= 0
+a= 0,b= 0,c=1, borrow= 0,diff= 1
+a= 0,b= 1,c=0, borrow= 1,diff= 1
+a= 0,b= 1,c=1, borrow= 1,diff= 0
+a= 1,b= 0,c=0, borrow= 0,diff= 1
+a= 1,b= 0,c=1, borrow= 1,diff= 0
+a= 1,b= 1,c=0, borrow= 0,diff= 0
+a= 1,b= 1,c=1, borrow= 1,diff= 1
+$finish called at time : 800 ns : File "C:/Users/student/201211/full_sub/full_sub.srcs/sim_1/new/full_sub_tb.v" Line 16

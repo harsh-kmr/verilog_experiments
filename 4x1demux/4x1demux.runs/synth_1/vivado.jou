@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  5 12:23:19 2022
+# Process ID: 13448
+# Current directory: C:/Users/student/201211/4x1demux/4x1demux.runs/synth_1
+# Command line: vivado.exe -log demux1x4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source demux1x4.tcl
+# Log file: C:/Users/student/201211/4x1demux/4x1demux.runs/synth_1/demux1x4.vds
+# Journal file: C:/Users/student/201211/4x1demux/4x1demux.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source demux1x4.tcl -notrace

@@ -1,0 +1,56 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Dec  8 14:56:15 2022
+| Host         : DESKTOP-11UI415 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file comparator_2bit_methodology_drc_routed.rpt -pb comparator_2bit_methodology_drc_routed.pb -rpx comparator_2bit_methodology_drc_routed.rpx
+| Design       : comparator_2bit
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 4
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 1          |
+| TIMING-20 | Warning  | Non-clocked latch            | 3          |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell agb_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) agb_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch aeb_reg/L7 (in aeb_reg macro) cannot be properly analyzed as its control pin aeb_reg/L7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch agb_reg cannot be properly analyzed as its control pin agb_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch alb_reg/L7 (in alb_reg macro) cannot be properly analyzed as its control pin alb_reg/L7/G is not reached by a timing clock
+Related violations: <none>
+
+

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  5 11:51:28 2022
+# Process ID: 3160
+# Current directory: C:/Users/student/201211/mux4x1/mux4x1.runs/impl_1
+# Command line: vivado.exe -log multip.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source multip.tcl -notrace
+# Log file: C:/Users/student/201211/mux4x1/mux4x1.runs/impl_1/multip.vdi
+# Journal file: C:/Users/student/201211/mux4x1/mux4x1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source multip.tcl -notrace

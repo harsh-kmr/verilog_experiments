@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1670237590">
+  <File Type="BITSTR-BMM" Name="encoder_8x3_priority_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="encoder_8x3_priority_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="encoder_8x3_priority_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="encoder_8x3_priority_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="encoder_8x3_priority.tcl"/>
+  <File Type="OPT-TIMING" Name="encoder_8x3_priority_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="encoder_8x3_priority_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="encoder_8x3_priority_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="encoder_8x3_priority_reports.tcl"/>
+  <File Type="OPT-DRC" Name="encoder_8x3_priority_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="encoder_8x3_priority.hwdef"/>
+  <File Type="PWROPT-DCP" Name="encoder_8x3_priority_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="encoder_8x3_priority_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="encoder_8x3_priority_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="encoder_8x3_priority_placed.dcp"/>
+  <File Type="PLACE-IO" Name="encoder_8x3_priority_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="encoder_8x3_priority_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="encoder_8x3_priority_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="encoder_8x3_priority_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="encoder_8x3_priority_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="encoder_8x3_priority_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="encoder_8x3_priority_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="encoder_8x3_priority_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="encoder_8x3_priority_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="encoder_8x3_priority.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="encoder_8x3_priority_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="encoder_8x3_priority_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="encoder_8x3_priority_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="encoder_8x3_priority.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="encoder_8x3_priority_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="encoder_8x3_priority_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="encoder_8x3_priority_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="encoder_8x3_priority_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="encoder_8x3_priority_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="encoder_8x3_priority_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="encoder_8x3_priority_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="encoder_8x3_priority.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="encoder_8x3_priority_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="encoder_8x3_priority_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="encoder_8x3_priority_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="encoder_8x3_priority_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="encoder_8x3_priority_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="encoder_8x3_priority_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="encoder_8x3_priority_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="encoder_8x3_priority_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="encoder_8x3_priority_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="encoder_8x3_priority_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="encoder_8x3_priority_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="encoder_8x3_priority_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="encoder_8x3_priority_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="encoder_8x3_priority_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="encoder_8x3_priority_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="encoder_8x3_priority_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="encoder_8x3_priority_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="encoder_8x3_priority_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="encoder_8x3_priority_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="encoder_8x3_priority_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="encoder_8x3_priority_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="encoder_8x3_priority.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="encoder_8x3_priority_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="encoder_8x3_priority.rbt"/>
+  <File Type="BITSTR-NKY" Name="encoder_8x3_priority.nky"/>
+  <File Type="PDI-FILE" Name="encoder_8x3_priority.pdi"/>
+  <File Type="RCFI_FILE" Name="encoder_8x3_priority.rcfi"/>
+  <File Type="CFI_FILE" Name="encoder_8x3_priority.cfi"/>
+  <File Type="RNPI_FILE" Name="encoder_8x3_priority.rnpi"/>
+  <File Type="NPI_FILE" Name="encoder_8x3_priority.npi"/>
+  <File Type="RBD_FILE" Name="encoder_8x3_priority.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="encoder_8x3_priority.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="encoder_8x3_priority.sysdef"/>
+  <File Type="BG-BGN" Name="encoder_8x3_priority.bgn"/>
+  <File Type="BG-DRC" Name="encoder_8x3_priority.drc"/>
+  <File Type="RDI-RDI" Name="encoder_8x3_priority.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/encoder_8x3_priority.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="encoder_8x3_priority"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/priority8x3.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/priority8x3.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

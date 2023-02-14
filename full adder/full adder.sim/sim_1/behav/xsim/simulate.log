@@ -1,0 +1,12 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+i/p and o/p are
+a= 0,b= 0,cin=0, s= 0,cout= 0
+a= 0,b= 0,cin=1, s= 1,cout= 0
+a= 0,b= 1,cin=0, s= 1,cout= 0
+a= 0,b= 1,cin=1, s= 0,cout= 1
+a= 1,b= 0,cin=0, s= 1,cout= 0
+a= 1,b= 0,cin=1, s= 0,cout= 1
+a= 1,b= 1,cin=0, s= 0,cout= 1
+a= 1,b= 1,cin=1, s= 1,cout= 1
+$finish called at time : 800 ns : File "C:/Users/student/201211/full adder/full adder.srcs/sim_1/new/full_adder_tb.v" Line 18

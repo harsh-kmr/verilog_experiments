@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/201211/odd_parity/odd_parity.srcs/sources_1/new/odd_parity.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module odd_parity_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/201211/odd_parity/odd_parity.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/student/201211/odd_parity/odd_parity.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Dec  5 16:22:34 2022
+# Process ID: 15120
+# Current directory: C:/Users/student/201211/priority8x3/priority8x3.runs/synth_1
+# Command line: vivado.exe -log encoder_8x3_priority.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source encoder_8x3_priority.tcl
+# Log file: C:/Users/student/201211/priority8x3/priority8x3.runs/synth_1/encoder_8x3_priority.vds
+# Journal file: C:/Users/student/201211/priority8x3/priority8x3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source encoder_8x3_priority.tcl -notrace

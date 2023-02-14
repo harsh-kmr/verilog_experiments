@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.srcs/sim_1/new/testbench.v,1670484187,verilog,,,,testbench,,,,,,,,
+C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.srcs/sources_1/new/carry.v,1670484122,verilog,,C:/Users/student/201211/cary_look_ahead_adder/cary_look_ahead_adder.srcs/sim_1/new/testbench.v,,carry_lookahead_adder_4bit,,,,,,,,

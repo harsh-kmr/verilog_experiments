@@ -1,0 +1,13 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+A = 1010  B = 0001  Sel = 0000  Out = 1011
+A = 1010  B = 0001  Sel = 0001  Out = 1001
+A = 1010  B = 0001  Sel = 0010  Out = 1010
+A = 1010  B = 0001  Sel = 0011  Out = 1010
+A = 1010  B = 0001  Sel = 0100  Out = 0100
+A = 1010  B = 0001  Sel = 0101  Out = 0101
+A = 1010  B = 0001  Sel = 0110  Out = 0101
+A = 1010  B = 0001  Sel = 0111  Out = 0101
+A = 1010  B = 0001  Sel = 1000  Out = 0000
+A = 1010  B = 0001  Sel = 1001  Out = 1011
+A = 1010  B = 0001  Sel = 1010  Out = 1011

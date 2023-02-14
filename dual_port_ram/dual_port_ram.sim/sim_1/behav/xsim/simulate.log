@@ -1,0 +1,11 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Addr_a=000000, data_a =10101010, we_a=1, q_a=xxxxxxxx
+Addr_b=xxxxxx, data_b =xxxxxxxx, we_b=x, q_b=xxxxxxxx
+Addr_a=000000, data_a =00000000, we_a=0, q_a=xxxxxxxx
+Addr_a=000000, data_a =00000000, we_a=0, q_a=10101010
+Addr_b=000000, data_b =01010101, we_b=1, q_b=xxxxxxxx
+Addr_a=xxxxxx, data_a =xxxxxxxx, we_a=x, q_a=10101010
+Addr_a=xxxxxx, data_a =xxxxxxxx, we_a=x, q_a=xxxxxxxx
+Addr_b=000000, data_b =00000000, we_b=0, q_b=xxxxxxxx
+Addr_b=000000, data_b =00000000, we_b=0, q_b=01010101
