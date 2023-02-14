@@ -2,7 +2,7 @@
 # VLSI Experiments in Verilog for Engineering Sem 5 based on Syllabus of IIIT Trichy
 
 
-A brief description of what this project does and who it's for
+VLSI experiments in accordance with syllabus of IIIT Trichy
 
 
 ## Introduction
